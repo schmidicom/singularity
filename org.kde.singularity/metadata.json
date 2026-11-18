@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Singularity Contributors"
+            }
+        ],
+        "Category": "",
+        "Description": "An animated black hole with a dynamic accretion disk, written in pure QML",
+        "Description[de]": "Ein animiertes schwarzes Loch mit dynamischer Akkretionsscheibe, komplett in QML",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "org.kde.singularity",
+        "License": "GPL-2.0-or-later",
+        "Name": "Singularity",
+        "Name[de]": "Singularität",
+        "Version": "1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

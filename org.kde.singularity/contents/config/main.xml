@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- Animation speed in percent -->
+    <entry name="Speed" type="Int">
+      <default>100</default>
+    </entry>
+    <!-- Viewing angle above the disk plane in degrees -->
+    <entry name="Tilt" type="Int">
+      <default>8</default>
+    </entry>
+    <!-- Size of the black hole in percent -->
+    <entry name="HoleSize" type="Int">
+      <default>100</default>
+    </entry>
+    <!-- Horizontal position offset in percent of the screen width -->
+    <entry name="OffsetX" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- 0 = Interstellar, 1 = Blue giant, 2 = Nebula, 3 = Ember -->
+    <entry name="ColorScheme" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="ParticleCount" type="Int">
+      <default>110</default>
+    </entry>
+    <entry name="ShowStars" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="Glow" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>
